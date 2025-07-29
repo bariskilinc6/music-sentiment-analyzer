@@ -4,7 +4,7 @@ import json
 from time import sleep
 
 # ✅ API Key (senin anahtarın)
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="sk-proj")
 
 # ✅ CSV'den ilk 200 yorum okunuyor (Spotify)
 df = pd.read_csv("spotify_yorumlari.csv")
